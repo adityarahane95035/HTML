@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Web</title>
+</head>
+<body>
+    <style>
+        *{margin: 0;padding: 0;}
+        .heading{color: darkorange; position: absolute; top: 1%; width: 100%; left: 3mm; right: 4cm; text-align: center; font-size: 1cm;}
+        p {
+            color: white;
+            text-indent: 30px;
+            position: absolute;
+            top: 4cm;
+            text-align: center;
+            left: 5.3in;
+            right: 5.3in;
+}
+.review{color:black; position: absolute; top:2.6in; left: 6.1in; font-size: 4mm; font-family:Arial;}
+
+.center{
+    right: 4in;
+}
+h5{
+    position: absolute;
+    color: seashell;
+    top: 3.4in;
+    left: 6.3in;
+    font-size: 4mm;
+    font-family: 'Arial Narrow';
+}
+h6{
+    position: absolute;
+    color: palevioletred;
+    top: 90.60mm;
+    left: 6.4in;
+    font-family: 'Arial Narrow';
+    font-size: 3mm;
+}
+p2{
+            color: white;
+            text-indent: 30px;
+            position: absolute;
+            top: 9.7cm;
+            text-align:left;
+            left: 5.7in;
+            right: 5.3in;
+            font-family: 'Arial Narrow';
+}
+</style>
+    
+    <div class="container">
+        <center><img src="back.jpg" width="350px" height="750px"></center>
+        <h2 class="heading">10,000+ Our<br> users love our </br> products.</h2></h2>
+      </div>
+      <p>we only prove great products combined with excellent customer service, see what our <br>satisfied customers are saying about</br> our services.</p>
+     <center> <div style="width:330px;height:35px; position: absolute; left: 5.3in; top:2.5in;  border-radius: 15px 50px 30px 5px;border-radius: 15px 50px 30px;border-radius: 15px 50px;border-radius: 15px; background-color: pink; " ></div></center>
+     <h1 class ="review">Rated 5 Stars in Reviews</h1>
+     <center> <div style="width:330px;height:200px; position: absolute; left: 5.3in; top:3.2in; border-radius: 15px 50px 30px 5px;border-radius: 15px 50px 30px;border-radius: 15px 50px;border-radius: 15px; background-color:purple;" ></div></center>
+     <div class="profile">
+        <img src="profile.jpg" alt="profile" width="30px" height="30px" style="position: absolute; margin:0px 565px; bottom: 2in;">
+     
+    </div>
+    <h5>Colton Smith</h5>
+    <h6>verified buyer</h6>
+    <p2>"We needed the same printed design <br>as the one we had ordered a week<br> prior. Not only did they find the original<br>order, but we also recieved in it time.<br>Excellent!"</p2>
+</body>
+</html>
